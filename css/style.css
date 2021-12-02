@@ -1,0 +1,87 @@
+* {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  border: 1px solid #eee;
+  margin: 30px 40px;
+  padding: 20px 60px;
+  font-family: "Assistant";
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 35px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav .logo > a {
+  color: #53BD95;
+  font-size: xx-large;
+  font-weight: bold;
+}
+nav .logo > a i {
+  color: #53BD95;
+}
+nav .links > a {
+  padding-left: 20px;
+  font-weight: bold;
+}
+nav .links > a:hover {
+  text-decoration: underline;
+}
+nav .linkss > a {
+  padding: 10px 15px;
+  font-weight: bold;
+}
+nav .linkss > a:hover {
+  background-color: #53BD95;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 13px;
+}
+.main .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main .left .child > a {
+  padding-right: 20px;
+  font-weight: bold;
+  color: #888484;
+  border-bottom: 1px solid #53BD95;
+}
+.main .left .child a:hover {
+  color: #53BD95;
+}
+.main .right .child2 a {
+  color: #aaa;
+  font-weight: bold;
+}
+.main .right i {
+  color: #aaa;
+}
+.main .right .child2 a:hover {
+  color: #000;
+  font-weight: bold;
+}
+
+.line {
+  border: 1px solid #e9e6e6;
+}
