@@ -1,11 +1,19 @@
+$main: #53BD95;
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
 * {
     text-decoration: none;
     color: #000;
 }
 
 .container {
-    border: 1px solid #eee;
-    margin: 30px 40px;
+    // border: 1px solid #eee;
+    // margin: 30px 40px;
+    margin: 0;
     padding: 20px 60px;
     font-family: 'Assistant';
 }
@@ -17,11 +25,11 @@ nav {
     align-items: center;
 
     .logo > a{
-        color: #53BD95;
+        color: $main;
         font-size: xx-large;
         font-weight: bold;
         i {
-            color: #53BD95;
+            color: $main;
         }
     }
     
@@ -39,7 +47,7 @@ nav {
         font-weight: bold;
 
         &:hover {
-            background-color: #53BD95;
+            background-color: $main;
             border-radius: 5px;
             color: #fff;
         }
@@ -49,18 +57,27 @@ nav {
 .main {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 13px;
+    // padding-bottom: 13px;
+    border-bottom: 2px solid rgb(233, 230, 230);
+
+    .child, .child2{
+        padding-bottom: 15px;
+        padding-right: 20px;
+        a{
+            padding-bottom: 15px;
+            height: 100%;
+        }
+    }
 
     .left {
         display: flex;
         .child > a {
-            padding-right: 20px;
             font-weight: bold;
             color: rgb(136, 132, 132);
-            border-bottom: 1px solid #53BD95;  
         }
         .child a:hover {
-            color: #53BD95;
+            color: $main;
+            border-bottom: 2px solid $main;
         } 
     }
     .right {
@@ -72,12 +89,11 @@ nav {
             color: #aaa;
         }
         .child2 a:hover {
-            color: #000;
+            i{
+                color: $main;
+            }
+            color: $main;
             font-weight: bold;
         }
     }
-}
-
-.line {
-    border: 1px solid rgb(233, 230, 230);
 }
