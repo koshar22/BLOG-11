@@ -1,11 +1,15 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
 * {
   text-decoration: none;
   color: #000;
 }
 
 .container {
-  border: 1px solid #eee;
-  margin: 30px 40px;
+  margin: 0;
   padding: 20px 60px;
   font-family: "Assistant";
 }
@@ -54,7 +58,15 @@ nav .linkss > a:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 13px;
+  border-bottom: 2px solid #e9e6e6;
+}
+.main .child, .main .child2 {
+  padding-bottom: 15px;
+  padding-right: 20px;
+}
+.main .child a, .main .child2 a {
+  padding-bottom: 15px;
+  height: 100%;
 }
 .main .left {
   display: -webkit-box;
@@ -62,13 +74,12 @@ nav .linkss > a:hover {
   display: flex;
 }
 .main .left .child > a {
-  padding-right: 20px;
   font-weight: bold;
   color: #888484;
-  border-bottom: 1px solid #53BD95;
 }
 .main .left .child a:hover {
   color: #53BD95;
+  border-bottom: 2px solid #53BD95;
 }
 .main .right .child2 a {
   color: #aaa;
@@ -78,10 +89,9 @@ nav .linkss > a:hover {
   color: #aaa;
 }
 .main .right .child2 a:hover {
-  color: #000;
+  color: #53BD95;
   font-weight: bold;
 }
-
-.line {
-  border: 1px solid #e9e6e6;
+.main .right .child2 a:hover i {
+  color: #53BD95;
 }
