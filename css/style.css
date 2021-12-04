@@ -137,8 +137,13 @@ nav .linkss > a:hover {
   padding: 5px 13px;
   font-size: smaller;
   border-radius: 5px;
-  color: #088dc2;
+  color: #06668b;
   background-color: #c9e9f6;
+}
+.top .top_l .btn a:hover {
+  background-color: #5bbce4;
+  color: #fff;
+  font-weight: normal;
 }
 .top .top_r img {
   border-radius: 10px;
@@ -180,6 +185,11 @@ nav .linkss > a:hover {
 .middle a, .middle i {
   color: #53BD95;
   font-weight: bold;
+  padding: 5px 8px 5px 12px;
+}
+.middle a:hover, .middle i:hover {
+  background-color: #f5f0f0;
+  border-radius: 100px;
 }
 
 .bottom {

@@ -153,9 +153,15 @@ nav {
                 padding: 5px 13px;
                 font-size: smaller;
                 border-radius: 5px;
-                color: rgb(8, 141, 194);
+                color: rgb(6, 102, 139);
                 background-color: lighten($color: skyblue, $amount: 15);
+                &:hover {
+                    background-color: darken($color: skyblue, $amount: 10);
+                    color: #fff;
+                    font-weight: normal;
+                }
             }
+            
         }
     }
     .top_r {
@@ -191,6 +197,11 @@ nav {
     a, i{
         color: $main;
         font-weight: bold;
+        padding: 5px 8px 5px 12px;
+        &:hover {
+            background-color: rgb(245, 240, 240);
+            border-radius: 100px;
+        }
     }
 }
 
